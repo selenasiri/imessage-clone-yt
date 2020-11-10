@@ -9,7 +9,6 @@ import SidebarChat from './SidebarChat'
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <h2> I am the Sidebar</h2>
       <div className='sidebar_header'>
         <Avatar className='sidebar_avatar' />
         <div className='sidebar_input'>
