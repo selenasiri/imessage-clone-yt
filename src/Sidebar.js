@@ -10,7 +10,7 @@ const Sidebar = () => {
     <div className='sidebar'>
       <h2> I am the Sidebar</h2>
       <div className='sidebar_header'>
-        <Avatar />
+        <Avatar className='sidebar_avatar' />
         <div className='sidebar_input'>
           <SearchIcon />
           <input placeholder='Search' />
