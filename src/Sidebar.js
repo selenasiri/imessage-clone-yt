@@ -4,6 +4,7 @@ import "./Sidebar.css";
 import SearchIcon from '@material-ui/icons/Search'
 import RateReviewOutlinedIcon from '@material-ui/icons/RateReviewOutlined';
 import IconButton from '@material-ui/core/IconButton'
+import SidebarChat from './SidebarChat'
 
 const Sidebar = () => {
   return (
@@ -22,7 +23,9 @@ const Sidebar = () => {
       </div>
 
       <div className='sidebar_chats'>
-
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
       </div>
     </div>
   )
